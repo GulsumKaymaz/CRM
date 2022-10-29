@@ -68,9 +68,7 @@ public class Driver {
 
     /*
    This method will make sure our driver value is always null after using quit() method
-   because to create driver object we use Singleton design pattern. This pattern demands to us driver to be "null"
-   otherwise that method can not run. To make our driver "null" again, right after closing it by using quit() or close()
-   method we need one more method. In this way we are able to run every single test from scratch.
+
     */
     public static void closeDriver(){
         if (driver != null){
