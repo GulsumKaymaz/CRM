@@ -19,4 +19,7 @@ public class LoginPage {
 
 
 
+    @FindBy(name = "f")
+    public WebElement getAS;
+
 }
