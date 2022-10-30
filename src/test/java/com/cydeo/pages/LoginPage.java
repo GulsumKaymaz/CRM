@@ -14,5 +14,9 @@ public class LoginPage {
     @FindBy(name = "g")
     public WebElement log;
 
+    @FindBy(name = "f")
+    public WebElement getLog;
+
+
 
 }
